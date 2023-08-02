@@ -21,6 +21,16 @@
             android:src="@drawable/vegan"
             android:layout_gravity="center_horizontal"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Love animals, eat plants"
+            android:layout_gravity="center_horizontal"
+            layout android:gravity="center"
+            android:fontFamily="@font/borel"
+            android:textColor="#886D5F"
+            />
+
 
             <com.google.android.material.textfield.TextInputLayout
                 android:textColorHint="#886D5F"
@@ -76,12 +86,22 @@
             <TextView
                 android:textStyle="bold"
                 android:textColor="#886D5F"
-                android:textSize="15dp"
+                android:textSize="13dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Não tem conta? Cadastre-se"
                 android:layout_gravity="end"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/borel"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
 
 
