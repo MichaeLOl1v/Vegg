@@ -96,17 +96,36 @@
 
 
             <LinearLayout
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
             </LinearLayout>
 
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_width="370dp"
+                    android:layout_height="50dp"
+                    android:text="Entrar"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="#886D5F"/>
+
+                <TextView
+                    android:textStyle="bold|italic"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ESQUECI A SENHA"
+                    android:fontFamily="@font/borel"
+                    android:textSize="11dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#574646"
+                    />
 
 
 
-        </LinearLayout>
+            </LinearLayout>
 
 
 
