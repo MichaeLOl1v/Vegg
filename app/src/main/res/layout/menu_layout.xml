@@ -22,7 +22,7 @@
             android:layout_height="200dp"
             android:layout_margin="5dp"
             android:clickable="true"
-            app:cardBackgroundColor="#C88D3A"
+            app:cardBackgroundColor="#C1F0AD"
             app:cardCornerRadius="8dp">
 
             <LinearLayout
@@ -35,7 +35,8 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
-                    android:scaleType="centerCrop"
+                    android:scaleType=""
+                    android:src="@drawable/cafemanha"
                      />
 
                 <TextView
@@ -45,10 +46,9 @@
                     android:fontFamily="@font/borel"
                     android:shadowColor="#9C8585"
                     android:shadowRadius="5"
-                    android:text="Pets"
-                    android:textAllCaps="true"
-                    android:textColor="#503102"
-                    android:textSize="25sp"
+                    android:text="Café da manhã"
+                    android:textColor="#886D5F"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:layout_height="200dp"
             android:layout_margin="5dp"
             android:clickable="true"
-            app:cardBackgroundColor="#FEA400"
+            app:cardBackgroundColor="#C5EFC6"
             app:cardCornerRadius="8dp">
 
             <LinearLayout
@@ -74,6 +74,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:scaleType="centerInside"
+                    android:src="@drawable/almocojanta"
                      />
 
                 <TextView
@@ -83,11 +84,11 @@
                     android:fontFamily="@font/borel"
                     android:shadowColor="#9C8585"
                     android:shadowRadius="5"
-                    android:text="Alimentos"
-                    android:textAllCaps="true"
-                    android:textColor="#503102"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:text="Almoço / Janta"
+                    android:textColor="#886D5F"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
@@ -106,7 +107,7 @@
             android:layout_height="200dp"
             android:layout_margin="5dp"
             android:clickable="true"
-            app:cardBackgroundColor="#DDA986"
+            app:cardBackgroundColor="#83DE9D"
             app:cardCornerRadius="8dp">
 
             <LinearLayout
@@ -131,7 +132,7 @@
                     android:shadowRadius="5"
                     android:text="Doações"
                     android:textAllCaps="true"
-                    android:textColor="#503102"
+                    android:textColor="#886D5F"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -144,7 +145,7 @@
             android:layout_height="200dp"
             android:layout_margin="5dp"
             android:clickable="true"
-            app:cardBackgroundColor="#EA6767"
+            app:cardBackgroundColor="#ADE4CF"
             app:cardCornerRadius="8dp">
 
             <LinearLayout
@@ -169,7 +170,7 @@
                     android:shadowRadius="5"
                     android:text="Serviços"
                     android:textAllCaps="true"
-                    android:textColor="#503102"
+                    android:textColor="#886D5F"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -190,7 +191,7 @@
             android:layout_height="200dp"
             android:layout_margin="5dp"
             android:clickable="true"
-            app:cardBackgroundColor="#D6A3B1"
+            app:cardBackgroundColor="#ADE4D8"
             app:cardCornerRadius="8dp">
 
             <LinearLayout
@@ -215,7 +216,7 @@
                     android:shadowRadius="5"
                     android:text="Localizar"
                     android:textAllCaps="true"
-                    android:textColor="#503102"
+                    android:textColor="#886D5F"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -253,7 +254,7 @@
                     android:shadowRadius="5"
                     android:text="Parceiros"
                     android:textAllCaps="true"
-                    android:textColor="#503102"
+                    android:textColor="#886D5F"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
