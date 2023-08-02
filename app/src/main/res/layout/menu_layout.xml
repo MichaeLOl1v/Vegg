@@ -121,7 +121,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:scaleType="centerInside"
-                    " />
+                    android:src="@drawable/sobremesa" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -130,10 +130,9 @@
                     android:fontFamily="@font/borel"
                     android:shadowColor="#9C8585"
                     android:shadowRadius="5"
-                    android:text="Doações"
-                    android:textAllCaps="true"
+                    android:text="Sobremesas"
                     android:textColor="#886D5F"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
